@@ -188,7 +188,7 @@
 
     const candidates = artworkNames(card).flatMap(name =>
       extensions.map(
-        extension => `./assets/${name}.${extension}`
+        extension => `./Assets/${name}.${extension}`
       )
     );
 
